@@ -5,6 +5,7 @@ const About = () => {
     <div>
       About
       <h1>We litt</h1>
+      <h1>pull it</h1>
     </div>
     
   )
