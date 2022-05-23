@@ -1,25 +1,17 @@
-import React from 'react'
+import React from "react";
 
 const Team = () => {
   return (
-    <div>Team
+    <div>
+      Team
       <ul>
-        <li>
-          Adnan
-        </li>
-        <li>
-          Mason
-        </li>
-        <li>
-          John
-        </li>
-        <li>
-          Olayinka
-        </li>
+        <li>Adnan</li>
+        <li>Mason</li>
+        <li>John</li>
+        <li>Olayinka</li>
       </ul>
     </div>
-    
-  )
-}
+  );
+};
 
-export default Team
+export default Team;
