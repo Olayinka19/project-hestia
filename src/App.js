@@ -6,10 +6,13 @@ import Showcase from "./components/Showcase";
 import Team from "./components/Team";
 import Faq from "./components/Faq";
 import "./App.css";
+import {light} from './myStyle/Themes'
+// import GlobalStyles from "./myStyle/GlobalStyle";
 
 function App() {
   return (
     <div className="App">
+      <section theme={light}>
       <h1>HESTIA</h1>
       <About />
       <Home />
@@ -17,6 +20,8 @@ function App() {
       <Showcase />
       <Team />
       <Faq />
+      {/* <GlobalStyles /> */}
+      </section>
 
     </div>
   );
