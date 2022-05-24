@@ -7,6 +7,7 @@ import Team from "./components/Team";
 import Faq from "./components/Faq";
 import "./App.css";
 import {light} from './myStyle/Themes'
+import Navigation from "./components/Navigation";
 // import GlobalStyles from "./myStyle/GlobalStyle";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Showcase />
       <Team />
       <Faq />
+      <Navigation />
       {/* <GlobalStyles /> */}
       </section>
 
